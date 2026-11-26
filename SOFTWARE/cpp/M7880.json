@@ -1,0 +1,101 @@
+{
+ "index": 10,
+ "code": "M7880",
+ "title": "M7880 Intercom Panel & IFB Station",
+ "category": "Communications",
+ "description": "10-channel broadcast intercom station with IFB program ducking, call chime, and station speaker resonance",
+ "circuitSummary": "Multi-channel broadcast communications master with discrete mic preamplifier, bandpass presence filter, 10 talk/listen keys with tally lamps, program ducking VCA, and internal speech synthesizer.",
+ "nodes": [
+  {
+   "id": "mic_in",
+   "label": "Comms Mic",
+   "type": "input",
+   "x": 40,
+   "y": 80
+  },
+  {
+   "id": "pre",
+   "label": "Mic Preamp",
+   "type": "amp",
+   "x": 160,
+   "y": 80
+  },
+  {
+   "id": "gate",
+   "label": "Noise Gate",
+   "type": "vca",
+   "x": 280,
+   "y": 80
+  },
+  {
+   "id": "bp",
+   "label": "Telecom Bandpass",
+   "type": "filter",
+   "x": 410,
+   "y": 80
+  },
+  {
+   "id": "duck",
+   "label": "IFB Program Duck",
+   "type": "vca",
+   "x": 540,
+   "y": 80
+  },
+  {
+   "id": "spk",
+   "label": "Station Speaker",
+   "type": "amp",
+   "x": 660,
+   "y": 80
+  },
+  {
+   "id": "out",
+   "label": "Intercom Bus Out",
+   "type": "output",
+   "x": 760,
+   "y": 80
+  }
+ ],
+ "wires": [
+  {
+   "from": "mic_in",
+   "to": "pre"
+  },
+  {
+   "from": "pre",
+   "to": "gate"
+  },
+  {
+   "from": "gate",
+   "to": "bp"
+  },
+  {
+   "from": "bp",
+   "to": "duck"
+  },
+  {
+   "from": "duck",
+   "to": "spk"
+  },
+  {
+   "from": "spk",
+   "to": "out"
+  }
+ ],
+ "clap": {
+  "id": "ca.wbsps.m7880_intercom_panel",
+  "name": "Ward-Beck M7880 Intercom Panel",
+  "strings": [
+   "ca.wbsps.m7880_intercom_panel",
+   "Ward-Beck M7880 Intercom Panel",
+   "Ward-Beck Systems Preservation Society",
+   "https://wbsps.ca",
+   "",
+   "https://wbsps.ca/contact",
+   "1.0.0",
+   "Iconic MicroCOM II/III broadcast intercom station with IFB auto-ducking, speech shaping, and 10-key matrix panel"
+  ]
+ },
+ "suite_index": 10,
+ "source": "2030.env/vst/M7880_Intercom_Panel"
+}
