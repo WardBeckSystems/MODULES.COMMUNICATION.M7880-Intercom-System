@@ -889,6 +889,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1hdFE6B2-hT-fXAUQkF3og65VXiOwJ65N/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1hdFE6B2-hT-fXAUQkF3og65VXiOwJ65N" width="240" alt="1989 - M7880 - DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN.jpg"></a><br><sub>1989|22 · DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1ZGr_ikfoF2Jgc5_zfbp96kto5yM1dhJL/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1ZGr_ikfoF2Jgc5_zfbp96kto5yM1dhJL" width="240" alt="1996 - M7880 - DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION.jpg"></a><br><sub>1996|29 · DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION</sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M7880.stl`](MECHANICAL/M7880.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M7880)
+
+- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M7880 - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M7880.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
