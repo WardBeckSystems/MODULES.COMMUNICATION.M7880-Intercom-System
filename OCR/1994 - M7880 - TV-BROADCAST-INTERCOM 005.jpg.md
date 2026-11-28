@@ -1,5 +1,5 @@
 # 1994 - M7880 - TV-BROADCAST-INTERCOM 005.jpg
-Wiki page: [M7880](../../../../PAGES/M7880.md)
+Wiki page: [M7880](../)
 
 
 - **Year:** 1994 (module estimate (original file date))
